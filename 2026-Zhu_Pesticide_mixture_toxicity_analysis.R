@@ -8,7 +8,7 @@ library(corrplot)
 library(e1071)
 
 # Read in data
-n <- read.csv("C:/Users/Chris/OneDrive/Desktop/RDATA/data2A.csv")
+n <- read.csv("Data/data2A.csv")
 
 # Correlation matrix
 C <- cor(n)
@@ -21,7 +21,7 @@ corrplot(
 )
 
 # Read in cleared data
-m <- read.csv("C:/Users/Chris/OneDrive/Desktop/RDATA/finaldatafinal.csv")
+m <- read.csv("Data/finaldatafinal.csv")
 
 
 
